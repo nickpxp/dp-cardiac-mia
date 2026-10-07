@@ -1,0 +1,11 @@
+# Versions the paper's numbers were produced with (Python 3.12.5).
+# diffprivlib 0.6.6 does not import against scikit-learn >= 1.9; see README.
+numpy==2.4.6
+pandas==3.0.3
+scikit-learn==1.8.*
+scipy>=1.14
+matplotlib>=3.9
+diffprivlib==0.6.6
+pytest>=8
+# optional, only for tools/generate_data.py --regenerate
+# ctgan

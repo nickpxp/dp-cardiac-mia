@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "Protecting healthcare machine learning from membership inference: code and data"
+version: 1.0.0
+date-released: 2026-10-07
+license: MIT
+repository-code: "https://github.com/nickpxp/dp-cardiac-mia"
+authors:
+  - family-names: Pierrelouis
+    given-names: Nick
+    affiliation: Marymount University
+  - family-names: Liu
+    given-names: Xiang
+    affiliation: Marymount University
+preferred-citation:
+  type: article
+  title: "Protecting healthcare machine learning from membership inference: An evaluation of differential privacy"
+  authors:
+    - family-names: Pierrelouis
+      given-names: Nick
+    - family-names: Liu
+      given-names: Xiang
+  journal: "Issues in Information Systems"
+  year: 2026
+  volume: 27
+  issue: 1
+  start: 181
+  end: 195
+  doi: "10.48009/1_iis_2026_113"
+  url: "https://www.iacis.org/iis/2026/1_iis_2026_181-195.pdf"

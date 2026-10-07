@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpcardiac"
+version = "1.0.0"
+description = "Central differential privacy against membership inference on a cardiac classifier"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Nick Pierrelouis"},
+  {name = "Xiang Liu"},
+]
+dependencies = [
+  "numpy>=2.0",
+  "pandas>=2.2",
+  "scikit-learn>=1.6,<1.9",
+  "scipy>=1.14",
+  "matplotlib>=3.9",
+  "diffprivlib==0.6.6",
+]
+
+[project.urls]
+Homepage = "https://github.com/nickpxp/dp-cardiac-mia"
+Paper = "https://doi.org/10.48009/1_iis_2026_113"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::FutureWarning", "ignore::DeprecationWarning", "ignore::UserWarning"]
